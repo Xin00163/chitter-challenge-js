@@ -14,7 +14,7 @@ describe('Users can post a peep', function(){
     before(function(){
       browser
         .fill('message', 'Hello World')
-      return browser.pressButton('Peep')
+      return browser.pressButton('peep')
     });
 
     it('should be successful', function(){
